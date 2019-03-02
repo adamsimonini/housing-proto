@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {MatInputModule} from '@angular/material/input';
 import {MatTabsModule} from '@angular/material/tabs';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 
 
@@ -18,7 +20,8 @@ import { InputComponent } from './input/input.component';
     BrowserModule,
     MatInputModule,
     MatTabsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
